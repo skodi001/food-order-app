@@ -2,11 +2,12 @@ import React, { Fragment } from "react";
 
 import Header from "./components/Layout/Header";
 import Meals from "./components/Meals/Meals";
-import "./App.css";
+import Cart from "./components/Cart/Cart";
 
 function App() {
   return (
     <Fragment className="App">
+      <Cart />
       <Header />
       <main>
         <Meals />
